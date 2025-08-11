@@ -12,6 +12,11 @@ public class App {
 		return a-b;
 	}
 	
+	public int multiplicationOfTwoNumbers(int a, int b)
+	{
+		return a*b;
+	}
+	
 	
     public static void main(String[] args) {
     	
@@ -23,6 +28,10 @@ public class App {
         int substraction= a1.subtractionOfTwoNumbers(20, 10);
         
         System.out.println("substraction of two Numbers is::"+substraction);
+        
+        int multiplication= a1.subtractionOfTwoNumbers(5, 10);
+        
+        System.out.println("multiplication of two Numbers is::"+multiplication);
         
     }
 }
