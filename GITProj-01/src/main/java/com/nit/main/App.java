@@ -12,6 +12,7 @@ public class App {
 		int result= a-b;
 		
 		return result;
+
 	}
 	
 	public int multiplicationOfTwoNumbers(int a, int b)
