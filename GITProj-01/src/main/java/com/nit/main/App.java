@@ -9,7 +9,9 @@ public class App {
 	
 	public int subtractionOfTwoNumbers(int a, int b)
 	{
-		return a-b;
+		int result= a-b;
+		
+		return  result;
 	}
 	
 	public int multiplicationOfTwoNumbers(int a, int b)
